@@ -1,4 +1,4 @@
-" MaTERiALGeRL.vim — color scheme
+" materialspace.vim — color scheme
 " ================================
 " Maintainer: the8
 " License: to kill.
@@ -8,7 +8,7 @@ if exists("syntax_on")
   sy reset
 en
 
-let g:colors_name = "MaTERiALGeRL"
+let g:colors_name = "materialspace"
 
 hi Normal         ctermfg=255  ctermbg=235  cterm=NONE      guifg=#ECEFF1 guibg=#37474F gui=NONE
 
@@ -58,3 +58,5 @@ hi PreProc        ctermfg=105  ctermbg=NONE cterm=NONE      guifg=#B388FF guibg=
 hi Type           ctermfg=155  ctermbg=NONE cterm=NONE      guifg=#B2FF59 guibg=NONE    gui=NONE
 hi Underlined     ctermfg=105  ctermbg=NONE cterm=underline guifg=#B388FF guibg=NONE    gui=underline
 hi Todo           ctermfg=228  ctermbg=NONE cterm=NONE      guifg=#FFFF8D guibg=NONE    gui=NONE
+
+hi ColorColumn ctermbg=210 guibg=#FF8A80
