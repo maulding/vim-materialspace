@@ -48,7 +48,7 @@ hi NonText        ctermfg=33   ctermbg=NONE cterm=NONE      guifg=#2196F3 guibg=
 hi Error          ctermfg=124  ctermbg=210  cterm=NONE      guifg=#B71C1C guibg=#EF9A9A gui=NONE
 hi Comment        ctermfg=249  ctermbg=NONE cterm=NONE      guifg=#78909C guibg=NONE    gui=NONE
 hi Constant       ctermfg=210  ctermbg=NONE cterm=italic    guifg=#FF8A80 guibg=NONE    gui=italic
-hi String         ctermfg=192  ctermbg=NONE cterm=NONE      guifg=#C5E1A5 guibg=NONE    gui=NONE
+hi String         ctermfg=229  ctermbg=NONE cterm=NONE      guifg=#C5E1A5 guibg=NONE    gui=NONE
 hi Special        ctermfg=212  ctermbg=NONE cterm=italic    guifg=#FF80AB guibg=NONE    gui=italic
 hi Delimiter      ctermfg=115  ctermbg=NONE cterm=NONE      guifg=#B9F6CA guibg=NONE    gui=NONE
 hi SpecialComment ctermfg=31   ctermbg=NONE cterm=NONE      guifg=#0097A7 guibg=NONE    gui=NONE
@@ -59,4 +59,6 @@ hi Type           ctermfg=155  ctermbg=NONE cterm=NONE      guifg=#B2FF59 guibg=
 hi Underlined     ctermfg=105  ctermbg=NONE cterm=underline guifg=#B388FF guibg=NONE    gui=underline
 hi Todo           ctermfg=228  ctermbg=NONE cterm=NONE      guifg=#FFFF8D guibg=NONE    gui=NONE
 
-hi ColorColumn ctermbg=210 guibg=#FF8A80
+hi DiffAdd        ctermfg=155  ctermbg=NONE cterm=NONE      guifg=#B2FF59 guibg=NONE    gui=NONE
+hi DiffChange     ctermfg=229  ctermbg=NONE cterm=NONE      guifg=#FFF9C4 guibg=NONE    gui=NONE
+hi DiffDelete     ctermfg=210  ctermbg=NONE cterm=NONE      guifg=#FF8A80 guibg=NONE    gui=NONE
